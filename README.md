@@ -3,10 +3,6 @@
 ## Overview
 This app is a responsive web page displaying info about myself.
 
-### Dependencies
-  * This app uses the built in Ruby StringIO library and minitest for its testing library.
-  * This app uses the [OStreamCatcher](https://github.com/codegourmet/o_stream_catcher) external library to hide output streams for testing
-
 ### Setup
 To run this project, perform the following:
  1. Clone the repo in your terminal: ```git clone https://github.com/bschwartz10/rails_engine.git```
