@@ -1,0 +1,169 @@
+body {
+  background-color: #F2F3F4;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  height: 200px;
+  background-color: #E94C4C;
+}
+
+.nav-container {
+  margin: 0 210px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.nav h4,
+.nav-items a {
+  color: #FFFFFF;
+}
+
+.nav-items a:hover {
+  color: #e7e9eb;
+}
+
+.nav h4 {
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 225px;
+  list-style: none;
+  margin: 0;
+  padding-left: 0
+}
+
+.nav-items a {
+  text-decoration: none;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: -110px;
+  position: relative;
+  margin: 0 200px;
+}
+
+.image-container {
+  width: 200px;
+  min-width: 200px;
+}
+
+.image-container img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.briefcase-container {
+  width: 25px;
+  min-width: 25px;
+}
+
+.briefcase-container img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bio-items {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.bio-items li {
+  padding: 12px;
+  border: 1px solid #e7e9eb;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid #e7e9eb;
+  width: 600px;
+}
+
+.bio h2 {
+  color: #E94C4C;
+}
+
+.bio p {
+  line-height: 1.75
+}
+
+a,h2,h4,p,li {
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 1251px) {
+  .page-content {
+    justify-content: center;
+    top: -80px;
+  }
+  .image-container {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-container {
+    margin: 0 10px;
+  }
+  .nav-left {
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-items {
+    margin-top: 20px;
+  }
+  .page-content {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 621px) {
+  .bio {
+    text-align: center;
+  }
+  .bio-items {
+    flex-direction: column;
+    align-items: center;
+    margin: 0
+  }
+  .bio-items li {
+    margin-bottom: 10px;
+  }
+}
