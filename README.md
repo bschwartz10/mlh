@@ -3,6 +3,9 @@
 ## Overview
 This app is a responsive web page displaying info about myself.
 
+## Live Version
+https://mlh-about-me.herokuapp.com/
+
 ### Setup
 To run this project, perform the following:
  1. Clone the repo in your terminal: ```git clone https://github.com/bschwartz10/mlh.git```
