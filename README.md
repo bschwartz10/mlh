@@ -5,7 +5,7 @@ This app is a responsive web page displaying info about myself.
 
 ### Setup
 To run this project, perform the following:
- 1. Clone the repo in your terminal: ```git clone https://github.com/bschwartz10/rails_engine.git```
+ 1. Clone the repo in your terminal: ```git clone https://github.com/bschwartz10/mlh.git```
  2. Open home.html in your web browser
 
 ### Design and Discussion
