@@ -22,7 +22,7 @@ The web page is built using Vanilla HTML and CSS. The following are the steps I 
 
 * Create the container, header and page content sections of the page
 
-* Create even margins for the header and page content sections
+* Create even margins for the header and page-content sections
 
 * Create the nav bar with flex-box
 
